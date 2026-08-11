@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+  <title>Dra. Daiane Pereira | Psicologia Clinica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/styles/main.css" />
+</head>
+<body>
+  <div class="bg-effects">
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+    <div class="gradient-orb orb-3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <div class="particles" id="particles"></div>
+
+  <header class="header">
+    <nav class="nav">
+      <a href="#hero" class="nav__logo">
+        <span class="logo-icon">&#9670;</span> Daiane Pereira
+      </a>
+      <ul class="nav__links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Servicos</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#para-quem">Como Funciona</a></li>
+        <li><a href="https://wa.me/5531988948566" target="_blank" class="nav__cta">Agendar Consulta</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="hero__content">
+      <div class="hero__badge">
+        <span class="badge-dot"></span> Psicologia Clinica & Saude Mental
+      </div>
+      <h1 class="hero__title">
+        Sua mente merece<br>
+        <span class="gradient-text">cuidado que transforma</span>
+      </h1>
+      <p class="hero__text">
+        Atendimento humanizado e especializado para transformar sua saude mental
+        com acolhimento, escuta e tecnicas baseadas em evidencias.
+      </p>
+      <div class="hero__actions">
+        <a href="https://wa.me/5531988948566" target="_blank" class="btn btn--primary">
+          Iniciar jornada
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#servicos" class="btn btn--ghost">Explorar servicos</a>
+      </div>
+
+    </div>
+      <div class="hero__visual">
+      <div class="hero__image-container">
+        <div class="hero__glow"></div>
+        <div class="hero__image-frame"></div>
+        <div class="floating-ring ring-1"></div>
+        <div class="floating-ring ring-2"></div>
+        <div class="floating-ring ring-3"></div>
+        <img src="./assets/img/daiane.jpeg" alt="Dra. Daiane Pereira">
+        <div class="hud-card hud-1">
+          <span class="hud-icon">&#9829;</span>
+          <span>Acolhimento</span>
+        </div>
+        <div class="hud-card hud-2">
+          <span class="hud-icon">&#9672;</span>
+          <span>Escuta Ativa</span>
+        </div>
+        <div class="hud-card hud-3">
+          <span class="hud-icon">&#9670;</span>
+          <span>Autoconhecimento</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre-story">
+    <div class="story-trigger" data-story="1"></div>
+    <div class="story-progress">
+      <div class="story-progress__bar"></div>
+    </div>
+
+    <div class="story-hero">
+      <div class="story-hero__content">
+        <p class="section-label">A historia por tras do cuidado</p>
+        <h2 class="section-title story-title">
+          Por tras de cada <span class="gradient-text">mente transformada</span>,<br>
+          existe uma jornada que comeca muito antes do primeiro atendimento.
+        </h2>
+      </div>
+      <div class="story-scroll-hint">
+        <span>Role para baixo</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </div>
+
+    <div class="story-timeline">
+      <div class="timeline-line"></div>
+
+      <div class="story-chapter" data-chapter="1">
+        <div class="chapter-marker"><span class="chapter-num">01</span></div>
+        <div class="chapter-content glass-card">
+          <div class="chapter-year">A origem</div>
+          <h3 class="chapter-title">Mineira, sonhadora e estudiosa</h3>
+          <p class="chapter-text">Mineira, nasci em 1999. Desde a infancia, sempre fui muito estudiosa e responsavel, dedicando-me as tarefas escolares. Embora tenha escolhido a psicologia, quando crianca, pensei em seguir diversas profissoes.</p>
+          <p class="chapter-text">Filha primogenita de pais queridos e amados, sou irma de uma grande companheira, com apenas 1 ano e 8 meses de diferenca. Sempre sonhadora e com uma grande vontade de viver, estudei em diferentes escolas.</p>
+        </div>
+      </div>
+
+      <div class="story-gallery">
+        <div class="gallery-square">
+          <img src="./assets/img/slide1.png" alt="Daiane Pereira - Infancia">
+        </div>
+      </div>
+
+      <div class="story-chapter" data-chapter="2">
+        <div class="chapter-marker"><span class="chapter-num">02</span></div>
+        <div class="chapter-content glass-card">
+          <div class="chapter-year">A perda e a forca</div>
+          <h3 class="chapter-title">Quando a vida nos transforma</h3>
+          <p class="chapter-text">Com 6 anos, perdi meu pai em um acidente de carro. A partir desse momento, minha mae criou eu e minha irma sozinha, revelando-se uma verdadeira leoa. Ela, sem duvida, e minha grande referencia de forca e determinacao!</p>
+          <p class="chapter-text">Essa experiencia me ensinou cedo sobre resiliencia, sobre como a dor pode nos fortalecer e sobre a importancia de cuidar da gente e de quem amamos.</p>
+        </div>
+      </div>
+
+      <div class="story-gallery">
+        <div class="gallery-square">
+          <img src="./assets/img/slide2.jpeg" alt="Familia e superacao">
+        </div>
+      </div>
+
+      <div class="story-chapter" data-chapter="3">
+        <div class="chapter-marker"><span class="chapter-num">03</span></div>
+        <div class="chapter-content glass-card">
+          <div class="chapter-year">O sonho</div>
+          <h3 class="chapter-title">A bolsa tao sonhada</h3>
+          <p class="chapter-text">Em uma das escolas, tive a oportunidade de fazer uma viagem para a Espanha juntamente com amigos e professores. Foi nessa epoca que surgiu o desejo de me tornar psicologa, e assim me dediquei para conquistar a tao sonhada bolsa do Prouni.</p>
+          <p class="chapter-text">E assim aconteceu: recebi a bolsa integral, 100%! Foi a confirmacao de que com dedicacao e fe nos sonhos, tudo e possivel.</p>
+        </div>
+      </div>
+
+      <div class="story-gallery">
+        <div class="gallery-square">
+          <img src="./assets/img/slide3.jpeg" alt="Conquista e realizacao">
+        </div>
+      </div>
+
+      <div class="story-chapter" data-chapter="4">
+        <div class="chapter-marker"><span class="chapter-num">04</span></div>
+        <div class="chapter-content glass-card">
+          <div class="chapter-year">A formacao</div>
+          <h3 class="chapter-title">Quatro estagios e uma pandemia</h3>
+          <p class="chapter-text">Durante a epoca da faculdade, eu tinha em mente que faria diferentes estagios com o intuito de conhecer diversas atuacoes. Assim se fez: estagiei em quatro lugares diferentes. Nao foi facil, principalmente por conta do Covid-19!</p>
+          <p class="chapter-text">Apesar de tantos sonhos, as expectativas, juntamente com as frustracoes, vieram. A inseguranca e o medo estiveram presentes.</p>
+        </div>
+      </div>
+
+      <div class="story-gallery">
+        <div class="gallery-square">
+          <img src="./assets/img/slide4.jpeg" alt="Estagio e formacao">
+        </div>
+      </div>
+
+      <div class="story-chapter" data-chapter="5">
+        <div class="chapter-marker"><span class="chapter-num">05</span></div>
+        <div class="chapter-content glass-card chapter-now">
+          <div class="chapter-year">A transformacao</div>
+          <h3 class="chapter-title">A terapia que mudou tudo</h3>
+          <p class="chapter-text">Foi em 2021 que decidi iniciar a terapia, pois ja nao aguentava mais a falta de autoconfianca que tomava conta de mim! Aqui estou eu, uma mulher autoconfiante que acredita na transformacao pela psicoterapia, por isso, continuo a terapia com minha psicologa.</p>
+          <p class="chapter-text chapter-highlight"><em>"E o melhor: agora tenho a oportunidade de impactar varias pessoas com a profissao que tanto me auxiliou neste processo!"</em></p>
+          <p class="chapter-text">Hoje sei que minha vivencia e minha historia me tornam uma profissional mais empatica, mais humana e mais preparada para acolher voce em sua jornada.</p>
+        </div>
+      </div>
+
+      <div class="story-gallery">
+        <div class="gallery-square">
+          <img src="./assets/img/slide5.jpeg" alt="Daiane Pereira">
+        </div>
+      </div>
+    </div>
+
+    <div class="story-end">
+      <div class="story-end__quote glass-card">
+        <p class="quote-text">"Sei na pele o que e sentir perdido, inseguro e sem forcas.<br>E por isso que hoje acolho voce com a empatia de quem ja esteve do outro lado."</p>
+        <p class="quote-author">— Dra. Daiane Pereira</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="servicos">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Servicos</p>
+        <h2 class="section-title">Como posso te <span class="gradient-text">ajudar</span></h2>
+      </div>
+      <div class="servicos__grid">
+        <article class="servico-card glass-card">
+          <div class="servico-card__glow"></div>
+          <div class="servico-card__icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </div>
+          <h3 class="servico-card__title">Terapia Individual</h3>
+          <p class="servico-card__text">Atendimento personalizado para adultos, com escuta acolhedora e tecnicas baseadas em evidencias para ansiedade, depressao, autoestima e relacoes.</p>
+        </article>
+        <article class="servico-card glass-card">
+          <div class="servico-card__glow"></div>
+          <div class="servico-card__icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3 class="servico-card__title">Terapia de Casal</h3>
+          <p class="servico-card__text">Espaco seguro para o casal resgatar a comunicacao, resolver conflitos e reconstruir a conexao com ferramentas praticas.</p>
+        </article>
+        <article class="servico-card glass-card">
+          <div class="servico-card__glow"></div>
+          <div class="servico-card__icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/>
+            </svg>
+          </div>
+          <h3 class="servico-card__title">Ansiedade e Estresse</h3>
+          <p class="servico-card__text">Aprenda a identificar gatilhos, controlar crises e desenvolver estrategias para lidar com a ansiedade no dia a dia.</p>
+        </article>
+        <article class="servico-card glass-card">
+          <div class="servico-card__glow"></div>
+          <div class="servico-card__icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 2a10 10 0 1 0 10 10H12V2z"/><path d="M12 12 2.1 12.4"/><path d="M12 12v9.9"/>
+            </svg>
+          </div>
+          <h3 class="servico-card__title">Autoestima e Autoconhecimento</h3>
+          <p class="servico-card__text">Trabalhe a relacao consigo mesmo, reconheca seus padroes e desenvolva uma imagem mais saudavel de si.</p>
+        </article>
+        <article class="servico-card glass-card">
+          <div class="servico-card__glow"></div>
+          <div class="servico-card__icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+            </svg>
+          </div>
+          <h3 class="servico-card__title">Atendimento Online</h3>
+          <p class="servico-card__text">Consultas por video chamada com a mesma qualidade do presencial, de onde voce estiver, com horarios flexiveis.</p>
+        </article>
+        <article class="servico-card glass-card">
+          <div class="servico-card__glow"></div>
+          <div class="servico-card__icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>
+            </svg>
+          </div>
+          <h3 class="servico-card__title">Orientacao Profissional</h3>
+          <p class="servico-card__text">Apoio para escolhas de carreira, transicoes profissionais, burnout e desenvolvimento de proposito de vida.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="depoimentos" class="reviews-section">
+    <div class="container">
+      <div class="reviews-top">
+        <div class="reviews-brand">
+          <svg width="40" height="40" viewBox="0 0 48 48"><path fill="#4285F4" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#34A853" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59a14.5 14.5 0 0 1 0-9.18l-7.98-6.19a24.01 24.01 0 0 0 0 21.56l7.98-6.19z"/><path fill="#EA4335" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+          <span>Google</span>
+        </div>
+        <div class="reviews-rating">
+          <span class="rating-big">5.0</span>
+          <div>
+            <div class="rating-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <span class="rating-label">Avaliacao maxima</span>
+          </div>
+        </div>
+      </div>
+      <p class="section-label">Avaliacoes reais</p>
+      <h2 class="section-title">O que nossos pacientes <span class="gradient-text">dizem</span></h2>
+      <div class="reviews-grid">
+        <div class="review-box glass-card">
+          <div class="review-box__head">
+            <div class="review-box__avatar">J</div>
+            <div><strong>Jose Lucimar Alves</strong><span>ha 2 anos</span></div>
+          </div>
+          <div class="review-box__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-box__text">"Minha experiencia esta sendo muito edificante, Daiane e uma psicologa excelente passa muito confianca, a cada sessao me sinto mais preparado para enfrentar o dia-dia. Vivemos em mundo frenetico, alta demanda em todas area de nossas vidas, para isso devemos nos cuidar na parte mais sensivel, que e a nossa mente, por isso recomendo Daiane tem me ajudado muito."</p>
+        </div>
+        <div class="review-box glass-card">
+          <div class="review-box__head">
+            <div class="review-box__avatar">V</div>
+            <div><strong>Vini Andrade</strong><span>ha 2 anos</span></div>
+          </div>
+          <div class="review-box__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-box__text">"Excelente profissional! Competente, dedicada e responsavel. Recomendo de olhos fechados!"</p>
+        </div>
+        <div class="review-box glass-card">
+          <div class="review-box__head">
+            <div class="review-box__avatar">F</div>
+            <div><strong>Fernanda Santos</strong><span>ha 2 anos</span></div>
+          </div>
+          <div class="review-box__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-box__text">"Profissional dedicada e habilidosa, o consultorio e acolhedor e com uma otima localizacao, recomendo demais."</p>
+        </div>
+      </div>
+      <div class="reviews-footer">
+        <a href="https://maps.app.goo.gl/NRDnGJePyamtB7qU7?g_st=iw" target="_blank" class="btn btn--outline">Ver mais no Google <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="para-quem" class="for-who">
+    <div class="container">
+      <div class="for-who__header">
+        <p class="section-label">Para quem e a terapia</p>
+        <h2 class="section-title">Este espaco e <span class="gradient-text">para voce</span></h2>
+      </div>
+
+      <div class="for-who__grid">
+        <div class="for-who__card glass-card">
+          <div class="for-who__icon">&#10004;</div>
+          <p>Deseja cultivar relacionamentos mais saudaveis consigo mesmo e com os outros</p>
+        </div>
+        <div class="for-who__card glass-card">
+          <div class="for-who__icon">&#10004;</div>
+          <p>Procura o autoconhecimento para compreender o que verdadeiramente faz sentido em sua vida</p>
+        </div>
+        <div class="for-who__card glass-card">
+          <div class="for-who__icon">&#10004;</div>
+          <p>Almeja uma vivencia mais leve, corajosa e com elevada autoestima</p>
+        </div>
+        <div class="for-who__card glass-card">
+          <div class="for-who__icon">&#10004;</div>
+          <p>Quer compreender seus pensamentos, medos e preocupacoes</p>
+        </div>
+        <div class="for-who__card glass-card">
+          <div class="for-who__icon">&#10004;</div>
+          <p>Busca a liberdade de ser autentico, sem sentir-se julgado</p>
+        </div>
+        <div class="for-who__card glass-card highlight">
+          <div class="for-who__icon">&#9733;</div>
+          <p><strong>Reconhece a necessidade de assumir a responsabilidade por sua vida e transformar sua realidade</strong></p>
+        </div>
+      </div>
+
+      <div class="for-who__text">
+        <p>Se voce ja passou por terapia anteriormente ou se esta sera a sua primeira experiencia, vou explicar como funciona esse processo.</p>
+        <p>A psicoterapia e um espaco de acolhimento e escuta, livre de julgamentos e confidencial.</p>
+        <p>Ofereco acompanhamento nesse processo de transformacao, tanto <strong>online</strong> quanto <strong>presencial em Belo Horizonte (MG)</strong>.</p>
+      </div>
+
+      <div class="for-who__sessions">
+        <div class="session-card glass-card">
+          <h4>Sessoes Online</h4>
+          <p>50 minutos via Google Meet</p>
+        </div>
+        <div class="session-card glass-card">
+          <h4>Presencial</h4>
+          <p>Bairro Belvedere, Belo Horizonte</p>
+        </div>
+      </div>
+
+      <div class="for-who__cta">
+        <a href="https://wa.me/5531988948566" target="_blank" class="btn btn--whatsapp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          Conversar no WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <div class="container">
+      <div class="cta-glass">
+        <div class="cta-glass__content">
+          <p class="section-label">// Vamos conversar</p>
+          <h2 class="section-title">Pronto para <span class="gradient-text">transformar</span> sua mente?</h2>
+          <p class="contato__text">
+            Agende sua primeira conversa e descubra como a terapia pode transformar
+            sua jornada de saude mental.
+          </p>
+          <div class="contato__details">
+            <div class="contato__detail">
+              <span class="detail-icon">&#9742;</span>
+               <span>(31) 9 8894-8566</span>
+            </div>
+            <div class="contato__detail">
+              <span class="detail-icon">&#9993;</span>
+              <span>daianepereira.psicologia@gmail.com</span>
+            </div>
+            <div class="contato__detail">
+              <span class="detail-icon">&#9873;</span>
+              <span>Belo Horizonte, MG</span>
+            </div>
+          </div>
+          <a href="https://wa.me/5531988948566" class="btn btn--whatsapp" target="_blank">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            Iniciar conversa no WhatsApp
+          </a>
+        </div>
+        <div class="cta-glass__visual">
+          <div class="orbit-animation">
+            <div class="orbit-core"></div>
+            <div class="orbit-ring orbit-1"><span>5.0</span></div>
+            <div class="orbit-ring orbit-2"><span>BH</span></div>
+            <div class="orbit-ring orbit-3"><span>CRP</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <p class="footer__logo">&#9670; Dra. Daiane Pereira</p>
+        <p class="footer__links">
+          &copy; 2026 Dra. Daiane Pereira. Todos os direitos reservados.
+        </p>
+        <p class="footer__copy">2026 &mdash; CRP 04/72191 &mdash; Todos os direitos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./src/main.js"></script>
+</body>
+</html>
+
+
+
+
